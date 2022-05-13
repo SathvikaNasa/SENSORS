@@ -1,0 +1,40 @@
+//SENSORS//
+- It can detect the physical parameters and converts into electrical signal. 
+ (physical parameters = light,heat,pressure or other environmental phenomena)
+- Sensors are used to measure temperature,detect smoke and regulate pressure.
+- It senses the presence or absence of energy.
+- In Embedded system,sensor network embedded computers placed in physical 
+  world that interacts with the Environment.
+- In Robot Sensors,it will used to measure the condition of robot and 
+  its surroundings environment.
+// TYPES OF SENSORS //
+- IR SENSORS   : Detects IR Radiation.
+                 Range= (1-5 meters/3-1 feet).
+                 Used in Remote sensing,night vision devices,optical power meters.
+                 Pins Used:- GND,VCC,Digital output.
+
+- SOUND         Detects Sound.
+      SENSORS : Range= 3kHz to 6KHz.
+                 Used in Security system for office/Home,Smart Phones,
+                 provides i/p to Buffer,security.
+                 Pins Used:- GND,Power supply,o/p pin.
+
+- FLAME/FIRE     Detector can use electronic circuit by using receiver like
+                 ElectroMagnetic Radiation.
+     SENSORS:     Range= 760-1100 nanometer.
+                 Used in Hydrogen stations,industrial gas turbines,gas-fueled cookers.
+                 Pins Used:- VCC,GND,D-OUT,A-OUT.
+
+- MQ2 GAS        Used for sensing concentration of gases such as LPG,HYDROGEN,
+                 CARBONMONOXIDE,SMOKE.
+     SENSORS:    Range= 300 to 10000ppm.
+                 Pins Used:- VCC,GND,DIGITAL/ANALOG.
+    
+- HC-SR04        Used to findout the distance from object.
+     ULTRASONIC  High accuracy and stable.
+       SENSORS:  Range= 2cm to 400cm.
+                 Pins used:- VCC,TRIGGER,ECHO,GROUND.
+                 Working principle:- S=(V*T)/2.
+                 Power suppply= +5V DC.
+                 Input pulse width= 10 myus.
+                 Measuring angle= 30 degrees.
